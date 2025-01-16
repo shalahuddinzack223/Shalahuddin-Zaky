@@ -1,0 +1,154 @@
+Metodologi Penelitian: Dampak Krisis Ekonomi Global Tahun 2008 terhadap Perdagangan InternasionalMetode Penelitian Politeknik APP Jakarta
+Author
+Shalahuddin Zaky
+14/01/24
+This just a showcase of what Quarto docs can produce. I use this part for my students.
+1 Pendahuluan
+1.1	Latar belakang
+ Krisis Ekonomi Global Tahun 2008 merupakan salah satu peristiwa paling signifikan yang memengaruhi ekonomi dunia. Berawal dari runtuhnya sektor keuangan di Amerika Serikat, krisis ini menyebar ke seluruh dunia, menyebabkan penurunan aktivitas ekonomi secara drastis, termasuk perdagangan internasional. Penurunan permintaan global, likuiditas yang ketat, dan melemahnya daya beli konsumen menjadi tantangan utama bagi negara-negara yang bergantung pada perdagangan internasional. Hal ini mengakibatkan perlambatan ekonomi yang meluas, terutama di sektor-sektor yang bergantung pada perdagangan ekspor dan impor.
+Selain itu, krisis ini mengungkapkan kerentanan sistem ekonomi global yang saling terhubung. Penurunan daya beli masyarakat menyebabkan permintaan ekspor dari negara-negara berkembang menurun drastis, sementara negara maju menghadapi tekanan untuk melindungi industri domestik. Situasi ini memunculkan hambatan perdagangan yang semakin memperburuk dampak krisis. Negara-negara yang sebelumnya menikmati surplus perdagangan harus beradaptasi dengan perubahan pola permintaan internasional yang sangat fluktuatif.
+Dalam konteks ini, penelitian mengenai dampak krisis terhadap perdagangan internasionalmenjadi sangat relevan. Dengan memahami dinamika tersebut, studi ini bertujuan untuk memberikan wawasan yang dapat membantu pembuat kebijakan dan pelaku ekonomi dalam merancang strategi untuk meningkatkan resiliensi ekonomi. Selain itu, penelitian ini diharapkan dapat menjadi dasar bagi pengembangan kerangka kerja multilateral yang lebih efektif untuk menghadapi tantangan perdagangan global di masa depan.
+
+1.2 Ruang lingkup
+      Penelitian ini difokuskan pada dampak krisis ekonomi global terhadap perdagangan internasional. Fokus utama mencakup analisis tren perdagangan selama periode 2006-2012 untuk memahami pola perubahan yang terjadi akibat krisis. Selain itu, penelitian ini menelaah pengaruh indikator makroekonomi global, seperti pertumbuhan PDB dan indeks kepercayaan konsumen, terhadap nilai perdagangan. Kajian ini dilakukan untuk menggali hubungan sebab-akibat antara krisis dan perubahan dalam perdagangan internasional.
+Studi juga mencakup evaluasi kebijakan perdagangan yang diambil oleh negara-negara maju dan berkembang untuk menghadapi dampak krisis. Penelitian ini mengidentifikasi negara-negara yang paling terdampak, baik dari segi nilai perdagangan maupun kebijakan ekonomi yang diterapkan. Dengan pendekatan ini, penelitian diharapkan dapat memberikan gambaran menyeluruh mengenai dampak krisis terhadap perdagangan internasional serta pelajaran yang bisa diambil untuk masa depan.
+
+1.3 Rumusan masalah
+1.	Bagaimana tren nilai perdagangan internasional sebelum, selama, dan setelah Krisis Ekonomi Global 2008?
+2.	Sejauh mana indikator ekonomi global, seperti pertumbuhan PDB dan indeks kepercayaan konsumen, memengaruhi perdagangan internasional?
+3.	Negara atau kawasan mana yang paling terdampak oleh krisis?
+.
+1.4 Tujuan dan manfaat penelitian
+Tujuan dari penelitian ini adalah untuk menganalisis dampak Krisis Ekonomi Global 2008 terhadap nilai dan volume perdagangan internasional, serta mengidentifikasi hubungan antara indikator ekonomi global dengan perdagangan internasional. Penelitian ini juga bertujuan untuk menentukan kawasan atau negara yang paling terpengaruh oleh krisis dan mengevaluasi efektivitas kebijakan perdagangan yang diterapkan selama periode tersebut. Dengan demikian, penelitian ini diharapkan mampu memberikan pemahaman yang komprehensif mengenai dinamika perdagangan internasional selama krisis.
+Manfaat dari penelitian ini mencakup penyediaan wawasan bagi pembuat kebijakan dalam merancang langkah-langkah mitigasi dampak krisis ekonomi di masa depan, memperkaya literatur akademik terkait perdagangan internasional dalam situasi krisis, serta memberikan informasi bagi pelaku bisnis untuk memahami risiko perdagangan global. Selain itu, penelitian ini juga berupaya memberikan rekomendasi kebijakan berdasarkan analisis dampak dan respons terhadap krisis, sehingga dapat mendukung pengambilan keputusan yang lebih baik di masa mendatang.
+
+
+
+1.5 Package
+Ini tidak wajib ada di packages yang digunakan antara lain sebagai berikut:
+library(tidyverse)
+library(readxl)
+library(WDI) # tambahkan library lain jika diperlukan
+2 Studi pustaka
+Krisis ekonomi global tahun 2008 memiliki dampak yang signifikan terhadap berbagai aspek perekonomian dunia, termasuk perdagangan internasional. Studi pustaka ini membahas literatur yang relevan terkait dengan krisis tersebut, pengaruhnya terhadap perdagangan global, serta respons kebijakan yang diambil untuk mengatasi dampaknya.
+1. Krisis Ekonomi Global 2008
+Banyak peneliti telah mengkaji penyebab dan dinamika krisis ekonomi global tahun 2008. Reinhart dan Rogoff (2009) dalam bukunya This Time is Different: Eight Centuries of Financial Folly menjelaskan bahwa krisis tersebut disebabkan oleh akumulasi ketidakseimbangan keuangan global dan kesalahan dalam pengelolaan kredit, terutama di sektor perbankan. Taylor (2009) menyatakan bahwa kebijakan moneter yang terlalu longgar di Amerika Serikat sebelum krisis berkontribusi pada pembentukan gelembung aset yang kemudian pecah.
+2. Dampak Krisis terhadap Perdagangan Internasional
+Baldwin dan Evenett (2009) mencatat bahwa krisis 2008 menyebabkan penurunan tajam dalam perdagangan global. Penurunan ini dikenal dengan istilah great trade collapse, yang dipicu oleh melemahnya permintaan global, pembatasan kredit perdagangan, dan meningkatnya proteksionisme. WTO (2009) juga melaporkan bahwa banyak negara mengambil langkah-langkah proteksionis sebagai respons terhadap krisis, yang memperburuk penurunan perdagangan internasional.
+3. Dinamika Proteksionisme dalam Krisis
+Gamberoni dan Newfarmer (2009) menemukan bahwa meskipun proteksionisme tidak meningkat secara besar-besaran, ada kecenderungan kebijakan yang mengarah pada perlindungan pasar domestik. Studi ini juga menunjukkan bahwa kebijakan tersebut lebih bersifat murky protectionism (proteksionisme terselubung), seperti subsidi domestik dan hambatan teknis terhadap perdagangan.
+.
+3 Metode penelitian
+3.1 Data
+
+Aspek	Sebelum Krisis (2007)	Saat Krisis (2008-2009)	Setelah Krisis (2010)
+Volume Perdagangan Global	Tumbuh +6.0%	Turun -12.2%	Pulih +13.8%
+Pertumbuhan Ekonomi Dunia	+4.3%	-0.1%	+5.1%
+Harga Komoditas Utama	Tinggi	Turun hingga 30-50%	Mulai pulih, naik sekitar 20%
+Tingkat Proteksionisme	Rendah	Meningkat (murky protectionism)	Menurun
+Ekspor Negara Berkembang	Naik 10-12% per tahun	Turun rata-rata 15-20%	Pulih sebagian, naik 8-10%
+Impor Negara Maju	Stabil	Turun hingga 25%	Pulih sebagian, naik 10-12%
+Pembiayaan Perdagangan	Lancar	Terhambat (kesulitan akses kredit)	Mulai normal
+Sektor Terpukul Paling Parah	Stabil	Otomotif, manufaktur, barang modal	Mulai pulih perlahan
+ 
+wleowleo wleo
+Col1	Col2	Col3
+		
+		
+		
+ 
+
+logo APP muncul secara random lalalala
+penelitian ini menggunakan data xxx
+
+ 
+Figure 1: City and highway mileage for 38 popular models of cars.Color by number of cylinders
+3.2 Metode analisis
+data = {
+    'PDB': [1000, 1100, 1200, 1300, 1400, 1500],  # dalam miliar USD
+    'Inflasi': [2.5, 3.0, 2.0, 2.8, 3.2, 2.7],  # dalam persen
+    'Pengangguran': [5.0, 4.8, 5.2, 4.9, 5.1, 4.7],  # dalam persen
+    'Nilai_Tukar': [1.2, 1.3, 1.25, 1.28, 1.31, 1.26],  # rasio terhadap USD
+    'Volume_Perdagangan': [200, 220, 250, 270, 300, 310]  # dalam miliar USD
+}
+df = pd.DataFrame(data)
+
+# Pisahkan variabel independen (X) dan variabel dependen (y)
+X = df[['PDB', 'Inflasi', 'Pengangguran', 'Nilai_Tukar']]
+y = df['Volume_Perdagangan']
+
+# Bagi data menjadi set pelatihan dan pengujian
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+
+# Buat model regresi linear
+model = LinearRegression()
+
+# Latih model dengan data pelatihan
+model.fit(X_train, y_train)
+
+# Prediksi dengan data pengujian
+y_pred = model.predict(X_test)
+
+# Evaluasi model
+mse = mean_squared_error(y_test, y_pred)
+r2 = r2_score(y_test, y_pred)
+
+print(f"Mean Squared Error (MSE): {mse}")
+print(f"R-squared (R2): {r2}")
+
+# Menampilkan koefisien dan intercept
+print("Koefisien regresi:", model.coef_)
+print("Intercept:", model.intercept_)
+
+# Menampilkan prediksi vs aktual
+prediksi_vs_aktual = pd.DataFrame({'Aktual': y_test, 'Prediksi': y_pred})
+print(prediksi_vs_aktual)
+4 Pembahasan
+4.1 Pembahasan masalah
+Pada bagian ini dapat ditampilkan data dan visualisasi data yang telah dikumpulkan.
+4.2 Analisis masalah
+Hasil regresinya adalah
+reg<-lm(hwy~cty,data=mpg)
+summary(reg)
+
+Call:
+lm(formula = hwy ~ cty, data = mpg)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-5.3408 -1.2790  0.0214  1.0338  4.0461 
+
+Coefficients:
+            Estimate Std. Error t value Pr(>|t|)    
+(Intercept)  0.89204    0.46895   1.902   0.0584 .  
+cty          1.33746    0.02697  49.585   <2e-16 ***
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Residual standard error: 1.752 on 232 degrees of freedom
+Multiple R-squared:  0.9138,    Adjusted R-squared:  0.9134 
+F-statistic:  2459 on 1 and 232 DF,  p-value: < 2.2e-16
+Dapat dilihat dari tabel di atas bahwa ini bukan regresi AR(1). wkkwkwkwk.
+
+
+
+
+
+
+
+
+
+5 Kesimpulan
+Krisis ekonomi global tahun 2008 memiliki dampak signifikan terhadap perdagangan internasional. Krisis ini, yang bermula dari sektor keuangan di Amerika Serikat, dengan cepat menyebar ke seluruh dunia melalui saluran keuangan dan perdagangan, menciptakan tantangan besar bagi negara-negara di berbagai tingkat pembangunan ekonomi.
+Penurunan perdagangan global yang tajam selama periode ini, sering disebut sebagai great trade collapse, disebabkan oleh kombinasi dari menurunnya permintaan global, kesulitan dalam pembiayaan perdagangan, dan meningkatnya kecenderungan proteksionisme. Negara-negara maju mengalami resesi yang mendalam, sementara negara berkembang yang sangat bergantung pada ekspor juga terpukul keras akibat penurunan harga komoditas dan permintaan ekspor.
+Respon kebijakan yang cepat dan terkoordinasi, seperti stimulus fiskal, pelonggaran moneter, dan koordinasi melalui forum global seperti G20, membantu menstabilkan perekonomian dan mencegah penurunan lebih lanjut dalam perdagangan internasional. Meskipun demikian, krisis ini mengungkap kelemahan dalam sistem perdagangan global, termasuk kerentanan rantai pasok internasional terhadap guncangan eksternal.
+Sebagai pelajaran, krisis 2008 menekankan pentingnya memperkuat ketahanan ekonomi global melalui regulasi keuangan yang lebih baik, diversifikasi perdagangan, dan peningkatan kerjasama internasional. Dengan langkah-langkah yang tepat, dampak negatif dari krisis serupa di masa depan dapat diminimalkan, memastikan stabilitas dan pertumbuhan perdagangan internasional yang berkelanjutan.
+
+6 Referensi
+•  Baldwin, R., & Evenett, S. (2009). The collapse of global trade, murky protectionism, and the crisis: Recommendations for the G20. London: CEPR Press.
+•  Eichengreen, B., & O'Rourke, K. H. (2010). What do the new data tell us? VoxEU.org. Retrieved from https://voxeu.org
+•  Krugman, P. (2009). The return of depression economics and the crisis of 2008. New York: W.W. Norton & Company.
+•  Obstfeld, M., & Rogoff, K. (2009). Global imbalances and the financial crisis: Products of common causes. Asia Economic Policy Conference Proceedings, 131-172.
+•  World Trade Organization (WTO). (2009). World Trade Report 2009: Trade policy commitments and contingency measures. Geneva: WTO Publications.
+•  Reinhart, C. M., & Rogoff, K. S. (2009). This time is different: Eight centuries of financial folly. Princeton: Princeton University Press.
+
