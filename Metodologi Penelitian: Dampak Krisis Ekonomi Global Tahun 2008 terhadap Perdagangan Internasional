@@ -24,11 +24,7 @@ Manfaat dari penelitian ini mencakup penyediaan wawasan bagi pembuat kebijakan d
 
 
 
-1.5 Package
-Ini tidak wajib ada di packages yang digunakan antara lain sebagai berikut:
-library(tidyverse)
-library(readxl)
-library(WDI) # tambahkan library lain jika diperlukan
+
 2 Studi pustaka
 Krisis ekonomi global tahun 2008 memiliki dampak yang signifikan terhadap berbagai aspek perekonomian dunia, termasuk perdagangan internasional. Studi pustaka ini membahas literatur yang relevan terkait dengan krisis tersebut, pengaruhnya terhadap perdagangan global, serta respons kebijakan yang diambil untuk mengatasi dampaknya.
 1. Krisis Ekonomi Global 2008
@@ -96,31 +92,7 @@ prediksi_vs_aktual = pd.DataFrame({'Aktual': y_test, 'Prediksi': y_pred})
 print(prediksi_vs_aktual)
 4 Pembahasan
 4.1 Pembahasan masalah
-Pada bagian ini dapat ditampilkan data dan visualisasi data yang telah dikumpulkan.
-4.2 Analisis masalah
-Hasil regresinya adalah
-reg<-lm(hwy~cty,data=mpg)
-summary(reg)
-
-Call:
-lm(formula = hwy ~ cty, data = mpg)
-
-Residuals:
-    Min      1Q  Median      3Q     Max 
--5.3408 -1.2790  0.0214  1.0338  4.0461 
-
-Coefficients:
-            Estimate Std. Error t value Pr(>|t|)    
-(Intercept)  0.89204    0.46895   1.902   0.0584 .  
-cty          1.33746    0.02697  49.585   <2e-16 ***
----
-Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
-
-Residual standard error: 1.752 on 232 degrees of freedom
-Multiple R-squared:  0.9138,    Adjusted R-squared:  0.9134 
-F-statistic:  2459 on 1 and 232 DF,  p-value: < 2.2e-16
-Dapat dilihat dari tabel di atas bahwa ini bukan regresi AR(1). wkkwkwkwk.
-
+OLS Regression Results ============================================================================== Dep. Variable: Volume Perdagangan Internasional R-squared: 0.920 Model: OLS Adj. R-squared: 0.880 Method: Least Squares F-statistic: 22.74 Date: Thu, 16 Jan 2025 Prob (F-statistic): 0.00151 Time: 20:38:00 Log-Likelihood: -19.206 No. Observations: 8 AIC: 48.41 Df Residuals: 4 BIC: 49.42 Df Model: 3 Covariance Type: nonrobust =============================================================================== coef std err t P>|t| [0.025 0.975] ------------------------------------------------------------------------------- const 32.2300 38.438 0.839 0.447 -60.978 125.438 GDP 0.4130 0.047 8.842 0.001 0.280 0.546 Tingkat Pengangguran -5.4200 4.107 -1.320 0.257 -16.379 5.540 Tingkat Inflasi -3.2200 3.420 -0.941 0.401 -12.571 6.131 ============================================================================== Omnibus: 0.244 Durbin-Watson: 1.950 Prob(Omnibus): 0.893 Jarque-Bera (JB): 0.401 Skew: -0.204 Prob(JB): 0.818 Kurtosis: 1.856 Cond. No. 9.56 =================
 
 
 
